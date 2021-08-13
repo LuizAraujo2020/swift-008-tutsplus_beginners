@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		6FBC85B426C6104D00D36D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBC85B226C6104D00D36D8E /* Main.storyboard */; };
 		6FBC85B626C6104F00D36D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBC85B526C6104F00D36D8E /* Assets.xcassets */; };
 		6FBC85B926C6104F00D36D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBC85B726C6104F00D36D8E /* LaunchScreen.storyboard */; };
+		6FBC85C126C610DE00D36D8E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6FBC85C026C610DE00D36D8E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6FBC85B526C6104F00D36D8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FBC85B826C6104F00D36D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FBC85BA26C6104F00D36D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FBC85C026C610DE00D36D8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		6FBC85A026C6104D00D36D8E = {
 			isa = PBXGroup;
 			children = (
+				6FBC85C026C610DE00D36D8E /* README.md */,
 				6FBC85AB26C6104D00D36D8E /* swift-008-tutsplus_beginners */,
 				6FBC85AA26C6104D00D36D8E /* Products */,
 			);
@@ -103,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = 6FBC85A426C6104D00D36D8E /* Build configuration list for PBXProject "swift-008-tutsplus_beginners" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,6 +130,7 @@
 			files = (
 				6FBC85B926C6104F00D36D8E /* LaunchScreen.storyboard in Resources */,
 				6FBC85B626C6104F00D36D8E /* Assets.xcassets in Resources */,
+				6FBC85C126C610DE00D36D8E /* README.md in Resources */,
 				6FBC85B426C6104D00D36D8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,11 +296,16 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-008-tutsplus_beginners/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Begin Tutsplus";
+				INFOPLIST_KEY_CFBundleExecutable = "swift-008-tutsplus_beginners";
+				INFOPLIST_KEY_CFBundleName = "swift-008-tutsplus_beginners";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +315,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,11 +329,16 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-008-tutsplus_beginners/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Begin Tutsplus";
+				INFOPLIST_KEY_CFBundleExecutable = "swift-008-tutsplus_beginners";
+				INFOPLIST_KEY_CFBundleName = "swift-008-tutsplus_beginners";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
